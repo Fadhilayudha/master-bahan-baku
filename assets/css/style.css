@@ -1,0 +1,269 @@
+/* body{
+    background-color: aqua;
+} */
+
+:root {
+    --first-color: #009AD0;
+}
+
+/* #dashboard{
+    width: 1600px;
+    height: 870px;
+}
+
+.container{
+    width: 1319px;
+    height: 557px;  
+    left: 140px;
+    top: 215px; 
+} */
+
+*{
+    font-family: 'Helvetica';
+    font-size: 14px;
+}
+
+
+.navbar{
+    background-color: var(--first-color);
+    /* width: 1600px; */
+    height: 60px;
+}
+
+#dashboard h2{
+    color: #333333;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* margin-left: 12px; */
+    margin-top: 20px;
+}
+
+#create li{
+    font-size: 12px;
+}
+
+.btnplus {
+    margin-left: 16px;
+}
+
+.iconplus{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+}
+
+.btnconversi{
+    margin-left: 16px;
+}
+
+.btn {
+    background-color: var(--first-color);
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 0%;
+    /* margin-left: 22px; */
+    /* line-height: 14px; */
+}
+
+
+.btn:hover {
+    background-color: #0386b5;
+    color: white;
+}
+
+.search {
+    width: 75%;
+    margin-left: 90px;
+}
+
+li{
+    list-style-type:none;
+    font-size: 14px;
+}
+
+p{
+    font-size: 13px;
+}
+
+td{
+    font-size: 14px;
+}
+
+b{
+    font-size: 15px;
+}
+
+.btnrespon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 12px;
+    gap: 8px;
+    width: 94px;
+    height: 24px;
+    background: var(--first-color);
+    border-radius: 1px;
+    margin-left: 30px;
+}
+
+.thead{
+    background-color: #EEEEEE;
+}
+
+/* td{
+    padding: 50px;
+} */
+
+/* .control{
+    margin-right: 10px;
+} */
+
+.tambah{
+    color: #333333;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* margin-left: 12px; */
+    margin-top: 20px;
+}
+
+
+
+.input{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    height: 60px;
+    background-color: #777777;
+    color: white;
+    padding: 20px;
+}
+
+.hrdot {
+    border: 2px dotted #000000;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+}
+
+.hrtitle{
+    border: 1px solid #000000;
+    /* border: ; */
+}
+
+label{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-align: center; */
+}
+
+.labeljumlah{
+    text-align: center;
+    margin-left: 12px;
+}
+
+hr{
+    border-top: 1px solid;
+}
+
+.judulmodal{
+    font-size: 18px;
+    margin-left: 110px;
+}
+
+.btnok{
+    margin-right: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 71px;
+    height: 30px;
+    /* justify-content: center; */
+    /* position: absolute; */
+}
+
+.fa-minus{
+    color: red;
+}
+
+.preset{
+    border-color:#009AD0;
+}
+
+.seluruharea {
+    margin-left: 10px;
+}
+
+.sd{
+    margin-top: 6px;
+    text-align: center;
+    /* font-size: 14px; */
+}
+
+.proses{
+    border-color: #999999;
+    margin-bottom: 30px;
+    margin-left: 88px;
+    width: 88px;
+    height: 40px;
+}
+
+.pagination{
+    margin-right: 13px;
+}
+
+
+/* .titlebahanbaku{
+    background-color: #EEEEEE;
+} */
+
+.labelbahanbaku{
+    text-align: center;
+}
+
+.labelconversi{
+    font-size: 14px;
+}
+
+.form-select{
+    font-size: 13px;
+}
+
+.form-control{
+    font-size: 13px;
+}
+
+/* .form-content{
+    background-color: #fff;
+} */
+
+.stok-tersedia{
+    text-align: center;
+    font-size: 13px;
+    /* margin-left: 110px; */
+}
+
+.border{
+    border-style: solid;
+    border-width: 5px;
+}
+
+.arrow-right{
+    /* width: 10px;
+    height: 12px; */
+    font-size: 30px;
+    /* text-align: justify; */
+}
+
+
+
+
